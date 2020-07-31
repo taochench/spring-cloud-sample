@@ -2,7 +2,6 @@
 ### 工程结构
 1. spring-cloud-sample为父pom工程，定义依赖版本及构建插件
 2. 所有子工程所需要的依赖必须在父pom中定义
-3. 子工程归类构建，如：eureka示例在${user.dir}/eureka/*目录下
 
 ### 版本依赖
 
