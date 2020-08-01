@@ -1,5 +1,8 @@
 # spring-cloud-sample
+![SpringCloud](assets/SpringCloud.png)
+
 ### 工程结构
+
 1. spring-cloud-sample为父pom工程，定义依赖版本及构建插件
 2. 所有子工程所需要的依赖必须在父pom中定义
 

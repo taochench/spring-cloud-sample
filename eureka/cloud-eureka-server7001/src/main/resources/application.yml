@@ -1,0 +1,16 @@
+server:
+  port: 7001  # 服务端口号
+spring:
+  application:
+    name: cloud-eureka-server # 应用名称/服务ID/AppName
+eureka:
+  instance:
+    hostname: eureka-server7001.com
+  client:
+    # 把自己注册到注册中心， 默认开启(true)
+    register-with-eureka: false
+    # 获取注册中心的服务信息， 默认开启(true)
+    fetch-registry: false
+    # 服务中心地址
+    service-url:
+      defaultZone: http://eureka-server7002.com:7002/eureka/
