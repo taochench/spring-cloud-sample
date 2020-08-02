@@ -450,3 +450,9 @@ public class ConsumerController {
 ![image-20200802101806276](assets/image-20200802101806276.png)
 
 ## 四、自我保护机制
+
+> eureka在经典的CAP定理中属于AP，保证了可用性和分区容错性
+>
+> eureka默认会开启一个自我保护功能，注册中心会暂时不剔除受保护的应用
+>
+> 该参数使用 eureka.server.enable-self-preservation参数设置，默认开启
