@@ -10,6 +10,8 @@
     <modules>
         <module>eureka/cloud-eureka-server7001</module>
         <module>eureka/cloud-eureka-server7002</module>
+        <module>eureka/cloud-eureka-producer8001</module>
+        <module>eureka/cloud-eureka-consumer8003</module>
     </modules>
     <packaging>pom</packaging>
 
