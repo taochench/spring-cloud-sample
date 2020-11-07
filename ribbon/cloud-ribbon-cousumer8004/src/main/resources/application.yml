@@ -1,0 +1,11 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: cloud-ribbon-consumer
+eureka:
+  instance:
+    hostname: ribbon-consumer8004.com
+  client:
+    service-url:
+      defaultZone: http://eureka-server7001.com:7001/eureka/,http://eureka-server7002.com:7002/eureka/

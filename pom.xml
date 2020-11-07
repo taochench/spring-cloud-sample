@@ -12,6 +12,9 @@
         <module>eureka/cloud-eureka-server7002</module>
         <module>eureka/cloud-eureka-producer8001</module>
         <module>eureka/cloud-eureka-consumer8003</module>
+        <module>ribbon/cloud-ribbon-cousumer8004</module>
+        <module>eureka/cloud-eureka-producer8002</module>
+        <module>openfeign/cloud-openfeign-consumer8005</module>
     </modules>
     <packaging>pom</packaging>
 

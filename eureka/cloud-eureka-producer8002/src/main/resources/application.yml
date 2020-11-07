@@ -1,0 +1,11 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: cloud-eureka-producer
+eureka:
+  instance:
+    hostname: eureka-producer8002.com
+  client:
+    service-url:
+      defaultZone: http://eureka-server7001.com:7001/eureka/,http://eureka-server7002.com:7002/eureka/
